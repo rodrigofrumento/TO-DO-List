@@ -1,0 +1,8 @@
+Task.create(title: 'Aprender mais sobre UI', done: false)
+Task.create(title: 'Aprender mais sobre UX', done: false)
+Task.create(title: 'Aprender mais sobre UX Design', done: false)
+Task.create(title: 'Aprender mais sobre UX Research', done: false)
+Task.create(title: 'Aprender mais sobre HTML', done: true)
+Task.create(title: 'Aprender mais sobre CSS', done: true)
+Task.create(title: 'Aprender mais sobre React', done: false)
+Task.create(title: 'Aprender mais sobre Laravel + React', done: false)
