@@ -28,12 +28,12 @@ class Tasks extends Component {
     render() {
         return (
             <Row>
-                <Col xs={{ span:8, offset:2 }} className="tasks_list">
+                <Col xs={{ span:6, offset:1 }} className="tasks_list">
                     <p className="title">To-do</p>
                     <List loadTasks={this.loadTasks} tasks={this.state.tasks.filter((task) => task.done !== true)} />
                     <CreateTask loadTasks={this.loadTasks} />
                 </Col>
-                <Col xs={{ span:8, offset:2 }} className="tasks_list">
+                <Col xs={{ span:6, offset:6 }} className="tasks_list">
                     <p className="title">Done</p>
                     <List loadTasks={this.loadTasks} tasks={this.state.tasks.filter((task) => task.done === true)} />
                     {/*<Button variant="red" className="float-right remove_tasks_btn">Remove All</Button>*/}

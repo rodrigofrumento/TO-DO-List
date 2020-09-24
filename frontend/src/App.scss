@@ -1,10 +1,11 @@
-$yellow: #F5DD16;
-$dark-grey: #7C7C7C;
+$yellow: #FE8900;
+$dark-grey: rgb(44, 44, 44);
 $light-grey: #BEBEBE;
 $red: #EE4525;
 
 .navbar {
   background-color: $dark-grey;
+  justify-content: center;
   .navbar-brand {
     color: $yellow !important;
   }
@@ -24,6 +25,7 @@ $red: #EE4525;
     border-color: $dark-grey;
     font-weight: 500;
     margin-top: 10px;
+    box-shadow: -3px 8px 20px $dark-grey;
   }
 
   .remove_tasks_btn {
@@ -36,6 +38,7 @@ $red: #EE4525;
 
   .card {
     background-color: $dark-grey;
+    border: 5px solid $yellow;
     table{
       tbody > tr:nth-child(1) > td{
         border-top: 0;
